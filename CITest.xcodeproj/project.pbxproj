@@ -14,7 +14,7 @@
 		F46D88AD1B7C636C00198462 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46D88AC1B7C636C00198462 /* Images.xcassets */; };
 		F46D88B01B7C636C00198462 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F46D88AE1B7C636C00198462 /* LaunchScreen.xib */; };
 		F46D88BC1B7C636C00198462 /* CITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F46D88BB1B7C636C00198462 /* CITestTests.m */; };
-		F46D88C61B7C648500198462 /* cyrcleci.yml in Resources */ = {isa = PBXBuildFile; fileRef = F46D88C51B7C648500198462 /* cyrcleci.yml */; };
+		F46D88C61B7C648500198462 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = F46D88C51B7C648500198462 /* circle.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		F46D88B51B7C636C00198462 /* CITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46D88BA1B7C636C00198462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F46D88BB1B7C636C00198462 /* CITestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CITestTests.m; sourceTree = "<group>"; };
-		F46D88C51B7C648500198462 /* cyrcleci.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cyrcleci.yml; sourceTree = "<group>"; };
+		F46D88C51B7C648500198462 /* circle.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = circle.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 		F46D88931B7C636C00198462 = {
 			isa = PBXGroup;
 			children = (
-				F46D88C51B7C648500198462 /* cyrcleci.yml */,
+				F46D88C51B7C648500198462 /* circle.yml */,
 				F46D889E1B7C636C00198462 /* CITest */,
 				F46D88B81B7C636C00198462 /* CITestTests */,
 				F46D889D1B7C636C00198462 /* Products */,
@@ -204,7 +204,7 @@
 			files = (
 				F46D88AB1B7C636C00198462 /* Main.storyboard in Resources */,
 				F46D88B01B7C636C00198462 /* LaunchScreen.xib in Resources */,
-				F46D88C61B7C648500198462 /* cyrcleci.yml in Resources */,
+				F46D88C61B7C648500198462 /* circle.yml in Resources */,
 				F46D88AD1B7C636C00198462 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
