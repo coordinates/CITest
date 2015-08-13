@@ -1,0 +1,6 @@
+machine:
+    environment:
+        XCODE_SCHEME: CITest
+test:
+    override:
+        - xcodebuild test -scheme CITest -project CITest.xcodeproj -destination 'name=iPhone 6'
